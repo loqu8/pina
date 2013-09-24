@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoMac.Foundation;
 using MonoMac.AppKit;
-using Cirrious.MvvmCross.Mac.Views;
 
 namespace Pina.Mac
 {
-	public partial class PinaViewController : MvxViewController
+	public partial class PinaViewController : MonoMac.AppKit.NSViewController
 	{
 		#region Constructors
 		// Called when created from unmanaged code

@@ -104,13 +104,13 @@
     <Compile Include="AppDelegate.designer.cs">
       <DependentUpon>AppDelegate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Setup.cs" />
+    <Compile Include="DebugTrace.cs" />
     <Compile Include="Views\PinaView.cs" />
     <Compile Include="Views\PinaViewController.cs" />
     <Compile Include="Views\PinaView.designer.cs">
       <DependentUpon>PinaView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Setup.cs" />
-    <Compile Include="DebugTrace.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainWindow.xib" />
@@ -129,5 +129,12 @@
       <Project>{D7B95588-3413-431C-A961-4AA1D7FFDAD5}</Project>
       <Name>Pina.Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Build\Intermediates\Pina.Mac.build\MonoMac\Pina.Mac.build\Pina.Mac-all-target-headers.hmap" />
+    <BundleResource Include="Build\Intermediates\Pina.Mac.build\MonoMac\Pina.Mac.build\Pina.Mac-generated-files.hmap" />
+    <BundleResource Include="Build\Intermediates\Pina.Mac.build\MonoMac\Pina.Mac.build\Pina.Mac-own-target-headers.hmap" />
+    <BundleResource Include="Build\Intermediates\Pina.Mac.build\MonoMac\Pina.Mac.build\Pina.Mac-project-headers.hmap" />
+    <BundleResource Include="Build\Intermediates\Pina.Mac.build\MonoMac\Pina.Mac.build\Pina.Mac.hmap" />
   </ItemGroup>
 </Project>
