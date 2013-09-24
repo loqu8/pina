@@ -68,25 +68,25 @@
     <Reference Include="System.Drawing" />
     <Reference Include="MonoMac" />
     <Reference Include="Cirrious.CrossCore.Mac">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.90-unstable\lib\net45\Cirrious.CrossCore.Mac.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.95-unstable\lib\net45\Cirrious.CrossCore.Mac.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding.Mac">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.90-unstable\lib\net45\Cirrious.MvvmCross.Binding.Mac.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.95-unstable\lib\net45\Cirrious.MvvmCross.Binding.Mac.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.CrossCore">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.90-unstable\lib\net45\Cirrious.CrossCore.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.95-unstable\lib\net45\Cirrious.CrossCore.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Binding">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.90-unstable\lib\net45\Cirrious.MvvmCross.Binding.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.95-unstable\lib\net45\Cirrious.MvvmCross.Binding.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Localization">
-      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.90-unstable\lib\net45\Cirrious.MvvmCross.Localization.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.CrossCore.Mac.3.0.95-unstable\lib\net45\Cirrious.MvvmCross.Localization.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross.Mac">
-      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.Mac.3.0.90-unstable\lib\net45\Cirrious.MvvmCross.Mac.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.Mac.3.0.95-unstable\lib\net45\Cirrious.MvvmCross.Mac.dll</HintPath>
     </Reference>
     <Reference Include="Cirrious.MvvmCross">
-      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.Mac.3.0.90-unstable\lib\net45\Cirrious.MvvmCross.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.HotTuna.MvvmCrossLibraries.Mac.3.0.95-unstable\lib\net45\Cirrious.MvvmCross.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -104,13 +104,13 @@
     <Compile Include="AppDelegate.designer.cs">
       <DependentUpon>AppDelegate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Setup.cs" />
-    <Compile Include="DebugTrace.cs" />
     <Compile Include="Views\PinaView.cs" />
     <Compile Include="Views\PinaViewController.cs" />
     <Compile Include="Views\PinaView.designer.cs">
       <DependentUpon>PinaView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Setup.cs" />
+    <Compile Include="DebugTrace.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="MainWindow.xib" />

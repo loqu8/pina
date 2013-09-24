@@ -4,7 +4,6 @@ using Cirrious.CrossCore.Platform;
 using Cirrious.MvvmCross.Mac.Platform;
 using Cirrious.MvvmCross.Mac.Views.Presenters;
 using Cirrious.MvvmCross.ViewModels;
-using Pina.Core;
 
 namespace Pina.Mac
 {
