@@ -9,7 +9,7 @@ namespace Pina.Mac
 {
 	public class Setup : MvxMacSetup
 	{
-		public Setup(MvxApplicationDelegate applicationDelegate, NSWindow window)
+		public Setup(MvxApplicationDelegate applicationDelegate, IMvxMacViewPresenter window)
             : base(applicationDelegate, window)
 		{
 		}

@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using MonoMac.Foundation;
 using MonoMac.AppKit;
+using Cirrious.MvvmCross.Mac.Views;
+using Cirrious.MvvmCross.Binding.BindingContext;
+using Pina.Core.ViewModels;
 
 namespace Pina.Mac
 {
-	public partial class PinaViewController : MonoMac.AppKit.NSViewController
+	public partial class PinaViewController : MvxViewController
 	{
 		#region Constructors
 		// Called when created from unmanaged code
@@ -35,6 +38,15 @@ namespace Pina.Mac
 			get {
 				return (PinaView)base.View;
 			}
+		}
+
+		public override void ViewDidLoad ()
+		{
+			base.ViewDidLoad ();
+
+			var set = this.CreateBindingSet<PinaViewController, PinaViewModel> ();
+			set.Bind (textme).For(v => v.StringValue).To (vm => vm.Hello);
+			set.Apply ();
 		}
 	}
 }
